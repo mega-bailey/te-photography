@@ -1,0 +1,30 @@
+.mainContent {
+  display: flex;
+}
+
+.leftContent {
+  width: 50%;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("https://images.unsplash.com/photo-1533535358139-acf67cb9b8fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1548&q=80");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.rightContent {
+  width: 50%;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("https://images.unsplash.com/photo-1633376165114-1acbf9e00c88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2787&q=80");
+  background-position: center;
+  background-size: cover;
+  border: 8rem solid white;
+  position: relative;
+}
